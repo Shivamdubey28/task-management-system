@@ -50,7 +50,7 @@ To set up and run TaskMaster on your local machine, follow these steps:
 
 Clone the TaskMaster repository to your local machine.
 Navigate to the project directory and install dependencies using npm install.
-Set up the PostgreSQL database and configure the database connection in the .env file.
+Set up the MongoDB database and configure the database connection in the .env file.
 Run the database migrations using npm run migrate.
 Start the server using npm start.
 Access TaskMaster in your web browser at http://localhost:3000.
