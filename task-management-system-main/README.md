@@ -30,8 +30,9 @@ TaskMaster's front-end was developed using React.js, a popular JavaScript librar
 TaskForm Component: Enables users to create new tasks by entering a title, description, and selecting a status.
 TaskList Component: Displays a list of tasks with options to update task status or delete tasks.
 Filter Component: Facilitates task filtering by status, allowing users to view tasks based on their current status.
+
 Back-End Development
-The back-end of TaskMaster was developed using Node.js with Express.js framework for building RESTful APIs. PostgreSQL was chosen as the database system for storing task data. Key components of the back-end include:
+The back-end of TaskMaster was developed using Node.js with Express.js framework for building RESTful APIs. MongoDB was chosen as the database system for storing task data. Key components of the back-end include:
 
 Task Model: Defines the structure of task data, including title, description, and status.
 CRUD Operations: Implements CRUD operations for tasks, allowing users to create, read, update, and delete tasks.
