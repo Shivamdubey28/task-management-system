@@ -6,8 +6,8 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-
-mongoose.connect(process.env.MONGO_URL, {
+MONGO_URL="mongodb://dubeyshivam512:shivamshivam@ac-6xfhjfg-shard-00-00.bsjppuh.mongodb.net:27017,ac-6xfhjfg-shard-00-02.bsjppuh.mongodb.net:27017/?ssl=true&replicaSet=atlas-qc34uv-shard-0&authSource=admin&retryWrites=true&w=majority"
+mongoose.connect(MONGO_URL, {
 	useNewUrlParser: true, 
 	useUnifiedTopology: true })
 	.then(() => console.log("connected to db"))
